@@ -1,0 +1,30 @@
+@echo off
+choice /C SNP /M "Selecione: [S]26, [N]27, [P]28 para executar "
+IF errorlevel=3 goto P
+IF errorlevel=2 goto NAO
+IF errorlevel=1 goto SIM
+
+:SIM
+del wt_bibliotecas\pacotes_build\bpls /a/q
+del wt_bibliotecas\pacotes_build\dcps /a/q
+del wt_bibliotecas\pacotes_build\dcus /a/q
+copy C:\fontesSVN\Branches\26\bpls wt_bibliotecas\pacotes_build\bpls\
+copy C:\fontesSVN\Branches\26\dcps wt_bibliotecas\pacotes_build\dcps\
+copy C:\fontesSVN\Branches\26\dcus wt_bibliotecas\pacotes_build\dcus\
+exit
+:NAO
+del wt_bibliotecas\pacotes_build\bpls /a/q
+del wt_bibliotecas\pacotes_build\dcps /a/q
+del wt_bibliotecas\pacotes_build\dcus /a/q
+copy C:\fontesSVN\Branches\27\bpls wt_bibliotecas\pacotes_build\bpls\
+copy C:\fontesSVN\Branches\27\dcps wt_bibliotecas\pacotes_build\dcps\
+copy C:\fontesSVN\Branches\27\dcus wt_bibliotecas\pacotes_build\dcus\
+exit
+:P
+del wt_bibliotecas\pacotes_build\bpls /a/q
+del wt_bibliotecas\pacotes_build\dcps /a/q
+del wt_bibliotecas\pacotes_build\dcus /a/q
+copy C:\fontesSVN\Branches\28\bpls wt_bibliotecas\pacotes_build\bpls\
+copy C:\fontesSVN\Branches\28\dcps wt_bibliotecas\pacotes_build\dcps\
+copy C:\fontesSVN\Branches\28\dcus wt_bibliotecas\pacotes_build\dcus\
+exit

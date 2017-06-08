@@ -1,0 +1,119 @@
+-- Create table
+create table ATENDIMENTO
+(
+  id          NUMBER,
+  wt          VARCHAR2(200),
+  branch      VARCHAR2(200),
+  versao      NUMBER,
+  tipocriacao NUMBER(2),
+  dtcriacao   DATE,
+  rotina      NUMBER
+)
+tablespace USERS
+  pctfree 10
+  initrans 1
+  maxtrans 255
+  storage
+  (
+    initial 64K
+    minextents 1
+    maxextents unlimited
+  );
+-- Create table
+create table COMANDOS
+(
+  id      NUMBER,
+  funcao  VARCHAR2(200),
+  comando VARCHAR2(200),
+  seq     NUMBER,
+  opcao   VARCHAR2(200)
+)
+tablespace USERS
+  pctfree 10
+  initrans 1
+  maxtrans 255
+  storage
+  (
+    initial 64K
+    minextents 1
+    maxextents unlimited
+  );
+-- Create table
+create table DCU
+(
+  id        NUMBER,
+  versao    NUMBER,
+  diretorio VARCHAR2(200)
+)
+tablespace USERS
+  pctfree 10
+  initrans 1
+  maxtrans 255
+  storage
+  (
+    initial 64K
+    minextents 1
+    maxextents unlimited
+  );
+-- Create table
+create table PARAMETROS
+(
+  id    NUMBER,
+  opcao VARCHAR2(200),
+  valor VARCHAR2(200)
+)
+tablespace USERS
+  pctfree 10
+  initrans 1
+  maxtrans 255
+  storage
+  (
+    initial 64K
+    minextents 1
+    maxextents unlimited
+  );
+-- Create table
+create table ROTINA
+(
+  id     NUMBER,
+  rotina VARCHAR2(200),
+  link   VARCHAR2(200)
+)
+tablespace USERS
+  pctfree 10
+  initrans 1
+  maxtrans 255
+  storage
+  (
+    initial 64K
+    minextents 1
+    maxextents unlimited
+  );
+-- Create sequence 
+create sequence SEQ_ATENDIMENTO
+minvalue 0
+maxvalue 999999999999999999999
+start with 0
+increment by 1
+cache 10;
+-- Create sequence 
+create sequence SEQ_COMANDO
+minvalue 0
+maxvalue 99999999999999999999999999
+start with 0
+increment by 1
+cache 10;
+-- Create sequence 
+create sequence SEQ_DCU
+minvalue 0
+maxvalue 999999999999999999999999
+start with 0
+increment by 1
+cache 10;
+-- Create sequence 
+create sequence SEQ_ROTINA
+minvalue 0
+maxvalue 999999999999999999999
+start with 0
+increment by 1
+cache 10;

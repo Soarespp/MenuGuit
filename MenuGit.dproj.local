@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/04/27 10:20:10.134.pas,C:\Users\pedro.soares\Documents\RAD Studio\Projects\Unit1.pas=E:\Pedro\Programas Desenvolvimento\Git -delphi\untMenu.pas</Transaction>
+    <Transaction>2017/04/27 10:20:10.134.dfm,C:\Users\pedro.soares\Documents\RAD Studio\Projects\Unit1.dfm=E:\Pedro\Programas Desenvolvimento\Git -delphi\untMenu.dfm</Transaction>
+    <Transaction>2017/04/27 10:20:31.245.dproj,C:\Users\pedro.soares\Documents\RAD Studio\Projects\Project1.dproj=C:\Users\pedro.soares\Documents\RAD Studio\Projects\MenuGit.dproj</Transaction>
+    <Transaction>2017/04/27 10:20:39.957.dproj,C:\Users\pedro.soares\Documents\RAD Studio\Projects\MenuGit.dproj=E:\Pedro\Programas Desenvolvimento\Git -delphi\MenuGit.dproj</Transaction>
+    <Transaction>2017/04/27 10:23:14.616.pas,E:\Pedro\Programas Desenvolvimento\Git -delphi\Unit1.pas=E:\Pedro\Programas Desenvolvimento\Git -delphi\dmConexao.pas</Transaction>
+    <Transaction>2017/04/27 10:23:14.616.dfm,E:\Pedro\Programas Desenvolvimento\Git -delphi\Unit1.dfm=E:\Pedro\Programas Desenvolvimento\Git -delphi\dmConexao.dfm</Transaction>
+    <Transaction>2017/04/27 10:28:35.752.pas,E:\Pedro\Programas Desenvolvimento\Git -delphi\Unit1.pas=E:\Pedro\Programas Desenvolvimento\Git -delphi\untNovoAtendimento.pas</Transaction>
+    <Transaction>2017/04/27 10:28:35.752.dfm,E:\Pedro\Programas Desenvolvimento\Git -delphi\Unit1.dfm=E:\Pedro\Programas Desenvolvimento\Git -delphi\untNovoAtendimento.dfm</Transaction>
+    <Transaction>2017/04/27 11:05:00.839.pas,E:\Pedro\Programas Desenvolvimento\Git -delphi\dmConexao.pas=</Transaction>
+    <Transaction>2017/04/27 11:05:00.839.dfm,E:\Pedro\Programas Desenvolvimento\Git -delphi\dmConexao.dfm=</Transaction>
+    <Transaction>2017/04/27 11:36:28.975.pas,E:\Pedro\Programas Desenvolvimento\Git -delphi\Unit1.pas=E:\Pedro\Programas Desenvolvimento\Git -delphi\untDiretorioDCU.pas</Transaction>
+    <Transaction>2017/04/27 11:36:28.975.dfm,E:\Pedro\Programas Desenvolvimento\Git -delphi\Unit1.dfm=E:\Pedro\Programas Desenvolvimento\Git -delphi\untDiretorioDCU.dfm</Transaction>
+    <Transaction>2017/04/27 11:43:57.706.pas,E:\Pedro\Programas Desenvolvimento\Git -delphi\Unit1.pas=E:\Pedro\Programas Desenvolvimento\Git -delphi\dmConexao.pas</Transaction>
+    <Transaction>2017/04/27 11:43:57.706.dfm,E:\Pedro\Programas Desenvolvimento\Git -delphi\Unit1.dfm=E:\Pedro\Programas Desenvolvimento\Git -delphi\dmConexao.dfm</Transaction>
+    <Transaction>2017/04/27 13:18:27.514.pas,E:\Pedro\Programas Desenvolvimento\Git -delphi\Unit2.pas=E:\Pedro\Programas Desenvolvimento\Git -delphi\untDMCadastro.pas</Transaction>
+    <Transaction>2017/04/27 13:18:27.514.dfm,E:\Pedro\Programas Desenvolvimento\Git -delphi\Unit2.dfm=E:\Pedro\Programas Desenvolvimento\Git -delphi\untDMCadastro.dfm</Transaction>
+    <Transaction>2017/04/27 13:28:09.436.pas,E:\Pedro\Programas Desenvolvimento\Git -delphi\Unit1.pas=E:\Pedro\Programas Desenvolvimento\Git -delphi\untCadastrarDCU.pas</Transaction>
+    <Transaction>2017/04/27 13:28:09.436.dfm,E:\Pedro\Programas Desenvolvimento\Git -delphi\Unit1.dfm=E:\Pedro\Programas Desenvolvimento\Git -delphi\untCadastrarDCU.dfm</Transaction>
+    <Transaction>2017/04/27 16:19:42.455.pas,E:\Pedro\Programas Desenvolvimento\Git -delphi\Unit1.pas=E:\Pedro\Programas Desenvolvimento\Git -delphi\untGit.pas</Transaction>
+    <Transaction>2017/04/27 16:24:54.581.pas,E:\Pedro\Programas Desenvolvimento\Git -delphi\Unit1.pas=E:\Pedro\Programas Desenvolvimento\Git -delphi\untParametros.pas</Transaction>
+    <Transaction>2017/04/27 16:24:54.581.dfm,E:\Pedro\Programas Desenvolvimento\Git -delphi\Unit1.dfm=E:\Pedro\Programas Desenvolvimento\Git -delphi\untParametros.dfm</Transaction>
+    <Transaction>2017/04/27 17:09:09.106.pas,E:\Pedro\Programas Desenvolvimento\Git -delphi\Unit1.pas=E:\Pedro\Programas Desenvolvimento\Git -delphi\untComandoGIt.pas</Transaction>
+    <Transaction>2017/04/27 17:09:09.106.dfm,E:\Pedro\Programas Desenvolvimento\Git -delphi\Unit1.dfm=E:\Pedro\Programas Desenvolvimento\Git -delphi\untComandoGIt.dfm</Transaction>
+    <Transaction>2017/04/28 10:33:26.174.pas,E:\Pedro\Programas Desenvolvimento\Git -delphi\Unit1.pas=E:\Pedro\Programas Desenvolvimento\Git -delphi\untComandosGIT.pas</Transaction>
+    <Transaction>2017/04/28 10:33:26.174.dfm,E:\Pedro\Programas Desenvolvimento\Git -delphi\Unit1.dfm=E:\Pedro\Programas Desenvolvimento\Git -delphi\untComandosGIT.dfm</Transaction>
+    <Transaction>2017/04/28 16:12:37.567.pas,E:\Pedro\Programas Desenvolvimento\Git -delphi\Unit1.pas=E:\Pedro\Programas Desenvolvimento\Git -delphi\untRotina.pas</Transaction>
+    <Transaction>2017/04/28 16:12:37.567.dfm,E:\Pedro\Programas Desenvolvimento\Git -delphi\Unit1.dfm=E:\Pedro\Programas Desenvolvimento\Git -delphi\untRotina.dfm</Transaction>
+    <Transaction>2017/05/02 10:05:58.402.pas,E:\Pedro\Programas Desenvolvimento\Git -delphi\Unit1.pas=E:\Pedro\Programas Desenvolvimento\Git -delphi\untAnalisarAtendimento.pas</Transaction>
+    <Transaction>2017/05/02 10:05:58.402.dfm,E:\Pedro\Programas Desenvolvimento\Git -delphi\Unit1.dfm=E:\Pedro\Programas Desenvolvimento\Git -delphi\untAnalisarAtendimento.dfm</Transaction>
+    <Transaction>2017/05/02 10:21:27.903.pas,E:\Pedro\Programas Desenvolvimento\Git -delphi\Unit1.pas=E:\Pedro\Programas Desenvolvimento\Git -delphi\untArquivos.pas</Transaction>
+    <Transaction>2017/05/02 10:21:27.903.dfm,E:\Pedro\Programas Desenvolvimento\Git -delphi\Unit1.dfm=E:\Pedro\Programas Desenvolvimento\Git -delphi\untArquivos.dfm</Transaction>
+    <Transaction>2017/05/05 09:35:32.079.pas,E:\Pedro\Programas Desenvolvimento\Git -delphi\Unit1.pas=E:\Pedro\Programas Desenvolvimento\Git -delphi\untComentario.pas</Transaction>
+    <Transaction>2017/05/05 09:35:32.079.dfm,E:\Pedro\Programas Desenvolvimento\Git -delphi\Unit1.dfm=E:\Pedro\Programas Desenvolvimento\Git -delphi\untComentario.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

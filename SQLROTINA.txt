@@ -1,0 +1,26 @@
+declare
+  i number;
+begin
+delete from git.rotina;
+i := 0;
+for dados in (  
+select case codmodulo
+            when 10 then 'http://'||&user||'@bitbucket.pcinformatica.com.br/scm/lf10/pcsis'||codigo||'.git'
+            when 14 then 'http://'||&user||'@bitbucket.pcinformatica.com.br/scm/ft14/pcsis'||codigo||'.git'
+            when 34 then 'http://'||&user||'@bitbucket.pcinformatica.com.br/scm/cp34/pcsis'||codigo||'.git'
+            when 40 then 'http://'||&user||'@bitbucket.pcinformatica.com.br/scm/tb40/pcsis'||codigo||'.git'
+       end LINK,
+       codigo
+ from loca.pcrotina where codmodulo in (10,14,34,40)
+ order by codmodulo,codigo)
+ loop
+    insert into git.rotina values (i,'PCSIS'||DADOS.CODIGO,DADOS.LINK);
+ end loop;
+end;
+
+insert into comandos values (seq_comando.nextval,'Fetch','git fetch' ,'3','');
+insert into comandos values (seq_comando.nextval,'CLONE','git clone' ,'1','CLONE');
+insert into comandos values (seq_comando.nextval,'INSTALL','bower install --force' ,'6','');
+insert into comandos values (seq_comando.nextval,'Push','git pull' ,'2','');
+insert into comandos values (seq_comando.nextval,'Checkout','git checkout' ,'5','CHECKOUT');
+insert into comandos values (seq_comando.nextval,'Revert','git stash' ,'4','');
