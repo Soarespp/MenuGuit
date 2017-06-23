@@ -98,7 +98,8 @@ object dmCadastros: TdmCadastros
       '       a.*'
       '  from Atendimento a,'
       '       rotina r'
-      ' where a.rotina = r.id;')
+      ' where a.rotina = r.id'
+      'order by a.wt;')
     Left = 168
     Top = 176
     object qryAtenID: TFloatField
